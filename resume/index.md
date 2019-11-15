@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Nicholas Hemsley's CV
+title: Nicholas Hemsley Resume
 ---
 # Nicholas Hemsley
 Computer Scientist, Data Scientist
