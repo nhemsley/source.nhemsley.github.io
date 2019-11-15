@@ -1,34 +1,41 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Nicholas Hemsley's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Nicholas Hemsley
+Computer Scientist, Data Scientist
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="nick.hems#gmail.com">nick.hems@gmail.com</a>
 </div>
 
 
 ## Currently
 
-Standing on the shoulders of giants
+Vue, Laravel and Devops at [Itomic](http://itomic.com.au)
 
-### Specialized in
+## Previously
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+Fremantle Guitar
+
+Booking system.
+
+Invoicing system integrated with airtable
+
+Crypto arbitrage
 
 
-### Research interests
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+
+
+### Interests
+
 
 
 ## Education
 
 `1654-1660`
-__The King's School, Grantham.__
+__Busselton Senior High School.__
 
 `June 1661 - now`
 __Trinity College, Cambridge__
@@ -41,34 +48,6 @@ __Trinity College, Cambridge__
 - Fellow
 
 
-
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
 
 
 ## Occupation
