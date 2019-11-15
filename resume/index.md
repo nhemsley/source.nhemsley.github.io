@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: resume
 title: Nicholas Hemsley Resume
 ---
 # Nicholas Hemsley
@@ -43,7 +43,7 @@ I am currently consulting for Itomic. My main roles are:
 ### Fremantle Guitar
 `August 2018 - now`
 
-I worked with Fremantle to augment their customer invoice tracking system which was utilising airtable. Send out emails to clients when invoices are due.
+I worked with Fremantle Guitar to augment their customer invoice tracking system which was utilising airtable. Send out emails to clients when invoices are due. **Ruby**
 
 I am currently working on a booking system for Fremantle Guitar, which integrates with their unique needs (parents, children, term based subscriptions)
 
@@ -57,6 +57,7 @@ I worked with a crypto startup to analyze opportunities presented by exchange ra
 ## Media On Mars
 
 I worked with Media On Mars on a ad-hoc basis. Troubleshooting problems as they arose for running websites.
+
 
 
 ### Interests
