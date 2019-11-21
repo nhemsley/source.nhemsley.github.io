@@ -1,3 +1,5 @@
+require 'yaml'
+
 task :all do
   Rake::Task["build"].invoke
   Rake::Task["resume2pdf"].invoke
@@ -8,7 +10,10 @@ task :build do
 end
 
 task :resume2pdf do
-  Dir.chdir('_site/resume')
-  `wkhtmltopdf index.html resume.pdf`
-  `cp resume.pdf ../../resume`
+  config = YAML.load(IO.read '_config.yml')
+  output_dir = config['destination'] || '_site'
+  Dir.chdir("#{output_dir}/resume") do
+    `wkhtmltopdf index.html resume.pdf`
+  end
+  # `cp resume.pdf ../../resume`
 end
