@@ -4,7 +4,6 @@
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
   <link href="../media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen, print">
-  <link href="../media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
 </head>
 <body>
   <div id="main">
@@ -12,6 +11,6 @@
     {{ content }}
     </div>
   </div>
-  <script src="../javascript/bundle.js"></script>
+  <script src="../javascript/bundle.js?{{site.data.build_id}}"></script>
 </body>
 </html>

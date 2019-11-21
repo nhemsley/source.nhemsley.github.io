@@ -25,11 +25,18 @@ var layout = cloud()
     .on("end", draw);
 
 layout.start();
+var toRemove = [
+  skillset.getElementsByClassName('skillset-body')[0],
+  document.getElementsByClassName('skillset-title')[0]
+]
+
+toRemove.forEach((remove) => remove.remove())
+
 
 function draw(words) {
   d3Select("div.skillset").append("svg")
-      .attr("width", layout.size()[0])
-      .attr("height", layout.size()[1])
+      .attr('viewBox', `0 0 ${layout.size()[0]}  ${layout.size()[1]}`)
+      .attr("preserveAspectRatio", "xMinYMin meet")
     .append("g")
       .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
     .selectAll("text")
@@ -39,30 +46,32 @@ function draw(words) {
       .style("font-family", "Cousine,Verdana,serif")
       .style("font-weight", "500")
       .attr("text-anchor", "middle")
-      // .style("fill", function(d) {
-      //   return 'rgb(' + wordSizeIndex[d.text] * 20  + ', 24, 24)'
-      //   // return wordSizeIndex[d.text]
-      // })
+      .style("fill", function(d) {
+        return 'rgb(' + wordSizeIndex[d.text] * 20  + ', 24, 24)'
+        // return wordSizeIndex[d.text]
+      })
       .attr("transform", function(d) {
         return "translate(" + [d.x * 1.2 , d.y] + ")rotate(" + d.rotate + ")";
       })
       .text(function(d) { return d.text; });
 }
 
-var svg = skillset.getElementsByTagName('svg')[0]
-svg.style.display = 'none';
 
-var skillsetHtml = skillset.getElementsByClassName('skillset-body')[0]
+/* swapping code */
+// var svg = skillset.getElementsByTagName('svg')[0]
+// svg.style.display = 'none';
 
-var skillsetTitle = document.getElementsByClassName('skillset-title')[0]
-console.log(svg, skillsetHtml, skillsetTitle)
+// var skillsetHtml = skillset.getElementsByClassName('skillset-body')[0]
 
-skillsetTitle.addEventListener('mouseenter', function(event) {
-  skillsetHtml.style.display = 'none'
-  svg.style.display = 'block'
-})
+// var skillsetTitle = document.getElementsByClassName('skillset-title')[0]
+// console.log(svg, skillsetHtml, skillsetTitle)
 
-skillsetTitle.addEventListener('mouseleave', function(event) {
-  skillsetHtml.style.display = 'flex'
-  svg.style.display = 'none'
-})
+// skillsetTitle.addEventListener('mouseenter', function(event) {
+//   skillsetHtml.style.display = 'none'
+//   svg.style.display = 'block'
+// })
+
+// skillsetTitle.addEventListener('mouseleave', function(event) {
+//   skillsetHtml.style.display = 'flex'
+//   svg.style.display = 'none'
+// })

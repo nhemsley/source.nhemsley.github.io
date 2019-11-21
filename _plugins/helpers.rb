@@ -1,4 +1,5 @@
 require 'cgi'
+require 'securerandom'
 
 require 'pry'
 
@@ -20,7 +21,7 @@ module Jekyll
       site.data['resume']['skillset'] = skillset(site)
       site.data['resume']['skillset_html'] = skillset_html(site)
       site.data['resume']['skillset_for_js'] = skillset_for_js(site)
-
+      site.data['build_id'] = SecureRandom.hex
     end
 
     def skillset(site)
