@@ -73,11 +73,12 @@ table {
   padding: 0em 8em;
 }
 
-.skillset {
+.skillset-body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: 0 10%;
 }
 
 .skillset-group {
@@ -87,20 +88,27 @@ table {
 
 .skillset-6 {
 	font-size: 180%;
+	color: #d23e3e;
 }
 .skillset-5 {
+	color: #b23e3e;
+
 	font-size: 160%;
 }
 .skillset-4 {
+	color: #923e3e;
 	font-size: 140%;
 }
 .skillset-3 {
+	color: #723e3e;
 	font-size: 120%;
 }
 .skillset-2 {
+	color: #523e3e;
 	font-size: 100%;
 }
 .skillset-1 {
+	color: #323e3e;
 	font-size: 90%;
 }
 

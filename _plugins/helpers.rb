@@ -1,3 +1,5 @@
+require 'cgi'
+
 require 'pry'
 
 class Array
@@ -17,6 +19,8 @@ module Jekyll
     def generate(site)
       site.data['resume']['skillset'] = skillset(site)
       site.data['resume']['skillset_html'] = skillset_html(site)
+      site.data['resume']['skillset_for_js'] = skillset_for_js(site)
+
     end
 
     def skillset(site)
@@ -29,11 +33,20 @@ module Jekyll
       end.sort{|a, b| a.last <=> b.last}.reverse
     end
 
+    def skillset_partitioned_by_count(site)
+      skillset_with_count(site).partition_by{|skillset| [skillset.last, skillset.first]}
+    end
+
     def skillset_html(site)
-      ordered = skillset_with_count(site).partition_by{|skillset| [skillset.last, skillset.first]}
-      ordered.keys.sort.reverse.map do |key|
-        "<div class='skillset-group skillset-#{key}'> #{ordered[key].join(', ')} </div>"
+      partitioned = skillset_partitioned_by_count(site)
+      partitioned.keys.sort.reverse.map do |key|
+        "<div class='skillset-group skillset-#{key}'> #{partitioned[key].join(', ')} </div>"
       end.join("\n")
+    end
+
+
+    def skillset_for_js(site)
+      CGI.escapeHTML(JSON.dump(skillset_partitioned_by_count(site)))
     end
   end
 end

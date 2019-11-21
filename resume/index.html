@@ -8,14 +8,16 @@ title: Nicholas Hemsley Resume
   <p class='contact'></p>
 </div>
 <div class='container'>
-  <h2 class='skillset'>Skillset</h2>
+  <h2 class='skillset-title'>Skillset</h2>
 </div>
-<div class='skillset container'>
-    {{ site.data.resume.skillset_html }}
+<div class='skillset container' data-skills='{{ site.data.resume.skillset_for_js}} '>
+    <div class='skillset-body'>
+      {{ site.data.resume.skillset_html }}
+    </div>
 </div>
 
 <div class='container'>
-    <h2 class='skillset'>Experience</h2>
+    <h2 class='experience'>Experience</h2>
 </div>
   
 <div class='container'>
