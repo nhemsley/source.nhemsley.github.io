@@ -8,4 +8,4 @@ Computer Scientist, Data Scientist
 
 # Resume
 
-[View my resume](./resume/) [(or view in PDF)](./resume/resume.pdf)
+[View my resume](./resume/index.html) [(or view in PDF)](./resume/resume.pdf)
