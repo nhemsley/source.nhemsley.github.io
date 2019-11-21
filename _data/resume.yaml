@@ -26,6 +26,7 @@ career:
   - Geolocation
   - Mysql
   - Postgres
+  - Linux Admin
   description: |-
     Vue, Laravel, API Development and Devops at [Itomic](http://itomic.com.au)
 
@@ -36,19 +37,6 @@ career:
     Giving technical advice on a Flutter IOs & Android App, and Laravel API backend. (API design, code quality, performance).
 
     Finding timely and cost-effective solutions to the various problems associated with running a web consultation firm.
-- company: Phone Control Australia
-  role: 
-  start: 2007-02-01
-  end: 2009-06-01
-  description: Web Programming – ASP.NET, C#, SQL Database. I worked on an Single
-    page web app utilizing javascript charts for reporting on phone system usage
-    in organisations. This was before SPA apps were a thing. Internet Explorer,
-    memory leaks. I took a break from IT & programming after this job...
-  tags:
-  - ASP.net
-  - C#
-  - Postgres
-  - Javascript
 - company: Freo Guitar Tuition
   role: 
   start: August 2018
@@ -106,16 +94,43 @@ career:
   - Ruby
   - HTML
   - Javascript
+- company: Phone Control Australia
+  role: 
+  start: 2007-02-01
+  end: 2009-06-01
+  description: Web Programming – ASP.NET, C#, SQL Database. I worked on an Single
+    page web app utilizing javascript charts for reporting on phone system usage
+    in organisations. This was before SPA apps were a thing. Internet Explorer,
+    memory leaks. I took a break from IT & programming after this job...
+  tags:
+  - ASP.net
+  - C#
+  - Postgres
+  - Javascript
 - company: House Of Snowball
   role: 
-  start: 
-  end: 
+  start: 2006-02-01
+  end: 2006-06-01
   description: I developed an ecommerce shop for houseofsnowball.com. This was
-    created using rails, and integrates with Stripe for the payment processing.
+    created using rails, and integrated with Stripe for the payment processing.
     Created using haml, sass & javascript. It is a fairly traditional Rails application.
   tags:
   - Ruby
   - Ruby On Rails
   - Stripe
   - Postgres
+- company:  Itomic Web Design & App Development
+  role: 
+  start: 2003-01-01
+  end: 2005-06-01
+  description: I worked as a full stack web developer with Itomic. Mostly with their in-house
+    CMS. Many and varied roles as came up running a hosting serice
+  tags:
+  - PHP
+  - Mysql
+  - DNS
+  - Email
+  - Linux Admin
+  - cPanel
+  
   

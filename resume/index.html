@@ -2,11 +2,15 @@
 layout: resume
 title: Nicholas Hemsley Resume
 ---
-<div class='title'>
+<div class='title container'>
   <h1>{{ site.data.resume.details.first_name }} {{ site.data.resume.details.middle_name }} {{ site.data.resume.details.last_name }}</h1>
   <p class='titles'>{{ site.data.resume.titles | join: ', '}}</p>
   <p class='contact'></p>
 </div>
+<div class='skillset container'>
+  {{ site.data.resume.skillset | join: ', ' }}
+</div>
+
 <div class='career'>
   {% for job in site.data.resume.career %}
     <div class='job'>
