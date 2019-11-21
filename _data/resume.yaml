@@ -23,10 +23,11 @@ career:
   - Lando
   - Devops
   - Google Places
+  - Google API
   - Geolocation
   - Mysql
-  - Postgres
   - Linux Admin
+  - cPanel
   description: |-
     Vue, Laravel, API Development and Devops at [Itomic](http://itomic.com.au)
 
@@ -39,7 +40,7 @@ career:
     Finding timely and cost-effective solutions to the various problems associated with running a web consultation firm.
 - company: Freo Guitar Tuition
   role: 
-  start: August 2018
+  start: 2018-02-01
   end: 
   description: |-
     I worked with Freo Guitar Tuition to augment their customer invoice tracking system which was utilising airtable. Send out emails to clients when invoices are due.
@@ -48,6 +49,8 @@ career:
   tags:
   - Ruby
   - Ruby On Rails
+  - Postgres
+  - Mysql
   - Google API
   - Google Drive
 - company: Cryptocurrency Exchange Arbitrage
@@ -77,7 +80,7 @@ career:
   tags:
   - Ruby
   - Ruby On Rails
-  - Postgres
+  - Mysql
   - Ember JS
   - Javascript
 - company: Integrated Natural Systems

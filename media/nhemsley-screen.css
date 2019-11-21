@@ -65,12 +65,43 @@ table {
 
 .job .about {
   width: 30%;
-  padding: 0 2em;
+  padding: 0 0;
 }
 
 .job .description {
   width: 60%;
   padding: 0em 8em;
+}
+
+.skillset {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skillset-group {
+	margin: 1em 0em;
+	width: 30%;
+}
+
+.skillset-6 {
+	font-size: 180%;
+}
+.skillset-5 {
+	font-size: 160%;
+}
+.skillset-4 {
+	font-size: 140%;
+}
+.skillset-3 {
+	font-size: 120%;
+}
+.skillset-2 {
+	font-size: 100%;
+}
+.skillset-1 {
+	font-size: 90%;
 }
 
 .container {
@@ -113,7 +144,6 @@ li ul {
 h1,h2,h3,h4 {
 	font-weight: 400;
 	font-family: Avenir,Cousine,Verdana,sans-serif;
-	width: 80%;
 }
 
 h1 {
@@ -122,8 +152,8 @@ h1 {
 }
 
 h2 {
-	font-size: 1.1em;
-	color: #bc412b;
+	font-size: 2.5em;
+	/* color: #bc412b; */
 }
 
 h3 {

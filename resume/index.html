@@ -7,25 +7,34 @@ title: Nicholas Hemsley Resume
   <p class='titles'>{{ site.data.resume.titles | join: ', '}}</p>
   <p class='contact'></p>
 </div>
+<div class='container'>
+  <h2 class='skillset'>Skillset</h2>
+</div>
 <div class='skillset container'>
-  {{ site.data.resume.skillset | join: ', ' }}
+    {{ site.data.resume.skillset_html }}
 </div>
 
-<div class='career'>
-  {% for job in site.data.resume.career %}
-    <div class='job'>
-      <div class='about'><h2>{{ job.company }} </h2>
-        <div class='duration'>
-          <span class='start'>{{ job.start | date_to_long_string }} </span>
-            {% if job.end %}
-             - <span class='end'>{{ job.end | date_to_long_string }} </span>
-            {% endif %}
+<div class='container'>
+    <h2 class='skillset'>Experience</h2>
+</div>
+  
+<div class='container'>
+  <div class='career'>
+    {% for job in site.data.resume.career %}
+      <div class='job'>
+        <div class='about'><h3>{{ job.company }} </h3>
+          <div class='duration'>
+            <span class='start'>{{ job.start | date_to_long_string }} </span>
+              {% if job.end %}
+              - <span class='end'>{{ job.end | date_to_long_string }} </span>
+              {% endif %}
 
+          </div>
+        </div>
+        <div class='description'>
+          {{ job.description | markdownify }}
         </div>
       </div>
-      <div class='description'>
-        {{ job.description | markdownify }}
-      </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>  
 </div>
