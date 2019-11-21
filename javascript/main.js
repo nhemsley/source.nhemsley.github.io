@@ -39,10 +39,10 @@ function draw(words) {
       .style("font-family", "Cousine,Verdana,serif")
       .style("font-weight", "500")
       .attr("text-anchor", "middle")
-      .style("fill", function(d) {
-        return 'rgb(' + wordSizeIndex[d.text] * 20  + ', 24, 24)'
-        // return wordSizeIndex[d.text]
-      })
+      // .style("fill", function(d) {
+      //   return 'rgb(' + wordSizeIndex[d.text] * 20  + ', 24, 24)'
+      //   // return wordSizeIndex[d.text]
+      // })
       .attr("transform", function(d) {
         return "translate(" + [d.x * 1.2 , d.y] + ")rotate(" + d.rotate + ")";
       })
