@@ -44,7 +44,7 @@ function draw(words) {
         // return wordSizeIndex[d.text]
       })
       .attr("transform", function(d) {
-        return "translate(" + [d.x *1.2, d.y] + ")rotate(" + d.rotate + ")";
+        return "translate(" + [d.x * 1.2 , d.y] + ")rotate(" + d.rotate + ")";
       })
       .text(function(d) { return d.text; });
 }
