@@ -20,7 +20,7 @@ var layout = cloud()
     }))
     .padding(5)
     .rotate(0)
-    .font("Impact")
+    .font("serif")
     .fontSize(function(d) { return d.size; })
     .on("end", draw);
 
@@ -36,14 +36,15 @@ function draw(words) {
       .data(words)
     .enter().append("text")
       .style("font-size", function(d) { return d.size + "px"; })
-      .style("font-family", "Impact")
+      .style("font-family", "Cousine,Verdana,serif")
+      .style("font-weight", "500")
       .attr("text-anchor", "middle")
       .style("fill", function(d) {
         return 'rgb(' + wordSizeIndex[d.text] * 20  + ', 24, 24)'
         // return wordSizeIndex[d.text]
       })
       .attr("transform", function(d) {
-        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        return "translate(" + [d.x *1.2, d.y] + ")rotate(" + d.rotate + ")";
       })
       .text(function(d) { return d.text; });
 }

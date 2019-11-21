@@ -3,8 +3,9 @@ details:
   first_name: Nicholas
   last_name: Hemsley
   middle_name: 
-  email: nick.hems@gmail.com
-  mobile: +61 497 686 384
+  contact: 
+  - email: email:nick.hems@gmail.com
+  - mobile: tel:+61 497 686 384
 titles:
 - Computer Scientist
 - Data Scientist
