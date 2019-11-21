@@ -1,0 +1,121 @@
+---
+details:
+  first_name: Nicholas
+  last_name: Hemsley
+  middle_name: 
+  email: nick.hems@gmail.com
+  mobile: +61 497 686 384
+titles:
+- Computer Scientist
+- Data Scientist
+interests: []
+career:
+- company: Itomic Web Design & App Development
+  role: 
+  start: 2019-08-01
+  end: 
+  tags:
+  - PHP
+  - Ruby
+  - Google API
+  - Laravel
+  - Vue JS
+  - Lando
+  - Devops
+  - Google Places
+  - Geolocation
+  - Mysql
+  - Postgres
+  description: |-
+    Vue, Laravel, API Development and Devops at [Itomic](http://itomic.com.au)
+
+    I am currently consulting for Itomic. My main roles are:
+
+    Maintaining a Vuejs & Laravel web app.
+
+    Giving technical advice on a Flutter IOs & Android App, and Laravel API backend. (API design, code quality, performance).
+
+    Finding timely and cost-effective solutions to the various problems associated with running a web consultation firm.
+- company: Phone Control Australia
+  role: 
+  start: 2007-02-01
+  end: 2009-06-01
+  description: Web Programming – ASP.NET, C#, SQL Database. I worked on an Single
+    page web app utilizing javascript charts for reporting on phone system usage
+    in organisations. This was before SPA apps were a thing. Internet Explorer,
+    memory leaks. I took a break from IT & programming after this job...
+  tags:
+  - ASP.net
+  - C#
+  - Postgres
+  - Javascript
+- company: Freo Guitar Tuition
+  role: 
+  start: August 2018
+  end: 
+  description: |-
+    I worked with Freo Guitar Tuition to augment their customer invoice tracking system which was utilising airtable. Send out emails to clients when invoices are due.
+    I am currently working on a booking system for Fremantle Guitar, which integrates with their unique needs (parents, children, term based subscriptions). 
+    This also involves Google drive intergration for video uploads.
+  tags:
+  - Ruby
+  - Ruby On Rails
+  - Google API
+  - Google Drive
+- company: Cryptocurrency Exchange Arbitrage
+  role: 
+  start: 2018-01-01
+  end: 2018-06-01
+  description: I worked with stakeholders to analyze opportunities presented by
+    exchange rate differences between online cryptocurrency exchanges. Finding round-trip
+    percentage gains by buying and selling on various exchanges.
+  tags:
+  - Ruby
+  - Ruby On Rails
+  - Postgres
+  - Bitcoin
+  - Ethereum
+  - Timeseries Data
+- company: ABC Wall Removers
+  role: 
+  start: 2016-01-01
+  end: 2016-04-01
+  description: I developed a quoting website for a client to create estimates for
+    jobs. This was generally accessed via an web app & on IPad. Once the estimate
+    was created, the client could then send the estimate details across to his invoice2go
+    invoicing app, which takes care of generating a PDF invoice for clients. This
+    was developed using emberjs, a rails backend which served json, and the bootstrap
+    framework for the design.
+  tags:
+  - Ruby
+  - Ruby On Rails
+  - Postgres
+  - Ember JS
+  - Javascript
+- company: Integrated Natural Systems
+  role: 
+  start: 2015-08-01
+  end: 
+  description: I delivered a website for Integrated Natural Systems. This is a
+    static website hosted on amazon s3. The client wanted a clean, minimal look
+    for their website to complement with the images & gallery featuring photos of
+    nature. Please note, this website has been taken down as the client is working
+    in a position that creates a conflict of interest. However I can provide a link
+    to the website upon request.
+  tags:
+  - Ruby
+  - HTML
+  - Javascript
+- company: House Of Snowball
+  role: 
+  start: 
+  end: 
+  description: I developed an ecommerce shop for houseofsnowball.com. This was
+    created using rails, and integrates with Stripe for the payment processing.
+    Created using haml, sass & javascript. It is a fairly traditional Rails application.
+  tags:
+  - Ruby
+  - Ruby On Rails
+  - Stripe
+  - Postgres
+  

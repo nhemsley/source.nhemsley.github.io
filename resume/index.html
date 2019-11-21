@@ -1,0 +1,27 @@
+---
+layout: resume
+title: Nicholas Hemsley Resume
+---
+<div class='title'>
+  <h1>{{ site.data.resume.details.first_name }} {{ site.data.resume.details.middle_name }} {{ site.data.resume.details.last_name }}</h1>
+  <p class='titles'>{{ site.data.resume.titles | join: ', '}}</p>
+  <p class='contact'></p>
+</div>
+<div class='career'>
+  {% for job in site.data.resume.career %}
+    <div class='job'>
+      <div class='about'><h2>{{ job.company }} </h2>
+        <div class='duration'>
+          <span class='start'>{{ job.start | date_to_long_string }} </span>
+            {% if job.end %}
+             - <span class='end'>{{ job.end | date_to_long_string }} </span>
+            {% endif %}
+
+        </div>
+      </div>
+      <div class='description'>
+        {{ job.description | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

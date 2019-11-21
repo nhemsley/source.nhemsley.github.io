@@ -1,2 +1,4 @@
 .jekyll-cache/
 _site/
+tmp/
+node_modules/

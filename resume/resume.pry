@@ -1,0 +1,8 @@
+require "ostruct"
+require_relative 'ostruct_helper'
+
+resume_hash = YAML.load(IO.read('resume.yaml'))
+
+resume = OpenStruct.from_object(resume_hash)
+
+

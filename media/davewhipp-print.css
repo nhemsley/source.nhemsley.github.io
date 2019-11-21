@@ -74,7 +74,7 @@ code {
 	font-size: 90%;
 	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
-	color: #ccc;
+	color: #555;
 }
 
 p code {
@@ -103,7 +103,7 @@ li {
 	/*second line indent*/
 	padding-left: 1.25em;
 	text-indent: -1.25em;
-	/*color: #777;*/
+	/*color: #555;*/
 }
 
 li ul {
@@ -145,9 +145,9 @@ h2 {
 
 
 h3 {
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 2em;
-	color: #ccc;
+	color: #555;
 	position: relative;
 	top: 1.6em;
 	text-align: right;
@@ -167,7 +167,7 @@ a:hover {
 	margin-top: 1em;
 	position: relative;
 	left: 25%;
-	color: #ccc;
+	color: #555;
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	font-size: 90%;
 }
