@@ -13,7 +13,9 @@ task :resume2pdf do
   config = YAML.load(IO.read '_config.yml')
   output_dir = config['destination'] || '_site'
   Dir.chdir("#{output_dir}/resume") do
+    `mv ../javascript/bundle.js ../javascript/bundle.disable.js`
     `wkhtmltopdf index.html resume.pdf`
+    `mv ../javascript/bundle.disable.js ../javascript/bundle.js `
+
   end
-  # `cp resume.pdf ../../resume`
 end
