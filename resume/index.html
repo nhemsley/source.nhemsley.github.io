@@ -41,3 +41,19 @@ title: Nicholas Hemsley Resume
     {% endfor %}
   </div>  
 </div>
+
+<div class="container">
+  <h2 class="referees">Referees</h2>
+</div>
+<div class="container referees">
+  {% for referee in site.data.resume.referees %}
+    <div class="referee">
+      <h3 class="name">{{ referee.full_name }}</h3>
+      <div class="role">{{ referee.role }}</div>
+      <div class="contact">
+        <div class="email">{{ referee.contact.email }}</div>
+        <div class="mobile">{{ referee.contact.mobile }}</div>
+      </div>
+    </div>
+    {% endfor %}
+</div>

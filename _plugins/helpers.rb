@@ -22,6 +22,15 @@ module Jekyll
       site.data['resume']['skillset_html'] = skillset_html(site)
       site.data['resume']['skillset_for_js'] = skillset_for_js(site)
       site.data['build_id'] = SecureRandom.hex
+      touch_referee_names(site)
+
+    end
+
+    def touch_referee_names(site)
+      site.data['resume']['referees'] = site.data['resume']['referees'].map do |referee|
+        referee['full_name'] = [referee['first_name'], referee['middle_name'], referee['last_name']].reject(&:nil?).reject(&:empty?).join(' ')
+        referee
+      end
     end
 
     def skillset(site)

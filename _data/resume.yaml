@@ -10,6 +10,25 @@ titles:
 - Computer Scientist
 - Data Scientist
 interests: []
+referees:
+- first_name: Ben
+  last_name: Bowden
+  contact:
+    email: ben@freoguitar.com
+    mobile: +61 422 645 211
+  role: Managing Directory at Freo Guitar Tuition
+- first_name: Kammerle
+  last_name: Rapsey
+  contact:
+    email: kam@mediaonmars.com.au
+    mobile: +61 422 645 211
+  role: Managing Directory at Media On Mars
+- first_name: Ross
+  last_name: Gerring
+  contact:
+    email: ross@itomic.com.au
+    mobile: +61 408 831 588
+  role: Managing Directory at Itomic Web Design & App Development
 career:
 - company: Itomic Web Design & App Development
   role: 
@@ -30,15 +49,10 @@ career:
   - Linux Admin
   - cPanel
   description: |-
-    Vue, Laravel, API Development and Devops at [Itomic](http://itomic.com.au)
-
     I am currently consulting for Itomic. My main roles are:
-
-    Maintaining a Vuejs & Laravel web app.
-
-    Giving technical advice on a Flutter IOs & Android App, and Laravel API backend. (API design, code quality, performance).
-
-    Finding timely and cost-effective solutions to the various problems associated with running a web consultation firm.
+    * Maintaining a Vuejs & Laravel web app.
+    * Giving technical advice on a Flutter IOs & Android App, and Laravel API backend. (API design, code quality, performance).
+    * Finding timely and cost-effective solutions to the various problems associated with running a web consultation firm.
 - company: Freo Guitar Tuition
   role: 
   start: 2018-02-01
@@ -61,6 +75,7 @@ career:
   description: I worked with stakeholders to analyze opportunities presented by
     exchange rate differences between online cryptocurrency exchanges. Finding round-trip
     percentage gains by buying and selling on various exchanges.
+    * 
   tags:
   - Ruby
   - Ruby On Rails
