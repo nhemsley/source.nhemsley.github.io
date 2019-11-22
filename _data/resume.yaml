@@ -120,7 +120,8 @@ career:
   description: Web Programming – ASP.NET, C#, SQL Database. I worked on an Single
     page web app utilizing javascript charts for reporting on phone system usage
     in organisations. This was before SPA apps were a thing. Internet Explorer,
-    memory leaks. I took a break from IT & programming after this job...
+    memory leaks, css hacks. Interesting project, I learnt alot about javascript 
+    and its dynamic nature (wrt. functions & binding) through this project.
   tags:
   - ASP.net
   - C#
