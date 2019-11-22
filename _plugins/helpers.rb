@@ -18,6 +18,7 @@ end
 module Jekyll
   class Helper < Generator
     def generate(site)
+      @site = site
       site.data['resume']['skillset'] = skillset(site)
       site.data['resume']['skillset_html'] = skillset_html(site)
       site.data['resume']['skillset_for_js'] = skillset_for_js(site)
