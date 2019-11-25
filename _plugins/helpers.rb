@@ -39,9 +39,16 @@ module Jekyll
     end
     
     def skillset_with_count(site)
-      site.data['resume']['career'].flat_map{|job| job['tags'] || []}.each_with_object(Hash.new(0)) do |skillset,counts| 
+      counts = site.data['resume']['career'].flat_map{|job| job['tags'] || []}.each_with_object(Hash.new(0)) do |skillset,counts| 
         counts[skillset] += 1
-      end.sort{|a, b| a.last <=> b.last}.reverse
+      end
+      
+
+      site.data['resume']['word_cloud_bump'].each do |skillset|
+        counts[skillset] += 1
+      end
+
+      counts.sort{|a, b| a.last <=> b.last}.reverse
     end
 
     def skillset_partitioned_by_count(site)

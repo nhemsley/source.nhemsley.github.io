@@ -16,19 +16,22 @@ referees:
   contact:
     email: ben@freoguitar.com
     mobile: +61 422 645 211
-  role: Managing Directory at Freo Guitar Tuition
-- first_name: Kammerle
+  role: Managing Director at Freo Guitar Tuition
+- first_name: Kammi
   last_name: Rapsey
   contact:
     email: kam@mediaonmars.com.au
     mobile: +61 422 645 211
-  role: Managing Directory at Media On Mars
+  role: Principal at Media On Mars
 - first_name: Ross
   last_name: Gerring
   contact:
     email: ross@itomic.com.au
     mobile: +61 408 831 588
-  role: Managing Directory at Itomic Web Design & App Development
+  role: Founder/Director at Itomic Web Design & App Development
+word_cloud_bump: 
+  - PostGIS
+  - PostGIS
 career:
 - company: Itomic Web Design & App Development
   role: 
@@ -46,7 +49,9 @@ career:
   - Google API
   - Geolocation
   - Mysql
-  - Linux Admin
+  - Postgres
+  - PostGIS
+  - Linux Administration
   - cPanel
   description: |-
     I am currently consulting for Itomic. My main roles are:
@@ -65,6 +70,7 @@ career:
   - Ruby
   - Ruby On Rails
   - Postgres
+  - PostGIS
   - Mysql
   - Google API
   - Google Drive
@@ -72,10 +78,10 @@ career:
   role: 
   start: 2018-01-01
   end: 2018-06-01
-  description: I worked with stakeholders to analyze opportunities presented by
+  description: |- 
+    I worked with stakeholders to analyze opportunities presented by
     exchange rate differences between online cryptocurrency exchanges. Finding round-trip
     percentage gains by buying and selling on various exchanges.
-    * 
   tags:
   - Ruby
   - Ruby On Rails
@@ -87,7 +93,8 @@ career:
   role: 
   start: 2016-01-01
   end: 2016-04-01
-  description: I developed a quoting website for a client to create estimates for
+  description: |-
+    I developed a quoting website for ABC Wall Removers to create estimates for
     jobs. This was generally accessed via an web app & on IPad. Once the estimate
     was created, the client could then send the estimate details across to his invoice2go
     invoicing app, which takes care of generating a PDF invoice for clients. This
@@ -106,13 +113,13 @@ career:
   description: I delivered a website for Integrated Natural Systems. This is a
     static website hosted on amazon s3. The client wanted a clean, minimal look
     for their website to complement with the images & gallery featuring photos of
-    nature. Please note, this website has been taken down as the client is working
-    in a position that creates a conflict of interest. However I can provide a link
-    to the website upon request.
+    nature.
   tags:
   - Ruby
   - HTML
   - Javascript
+  - Amazon
+  - Amazon S3
 - company: Phone Control Australia
   role: 
   start: 2007-02-01
@@ -127,6 +134,7 @@ career:
   - C#
   - Postgres
   - Javascript
+  - Jquery
 - company: House Of Snowball
   role: 
   start: 2006-02-01
@@ -144,13 +152,14 @@ career:
   start: 2003-01-01
   end: 2005-06-01
   description: I worked as a full stack web developer with Itomic. Mostly with their in-house
-    CMS. Many and varied roles as came up running a hosting serice
+    CMS. Many and varied roles as came up running a hosting serice.
+    Generally I implemented bespoke solutions for clients using PHP & Mysql as the back end.
   tags:
   - PHP
   - Mysql
   - DNS
   - Email
-  - Linux Admin
+  - Linux Administration
   - cPanel
   
   
