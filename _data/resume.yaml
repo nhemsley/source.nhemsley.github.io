@@ -17,21 +17,33 @@ referees:
     email: ben@freoguitar.com
     mobile: +61 422 645 211
   role: Managing Director at Freo Guitar Tuition
+  website: https://www.freoguitar.com
 - first_name: Kammi
   last_name: Rapsey
   contact:
     email: kam@mediaonmars.com.au
-    mobile: +61 422 645 211
+    mobile: (08) 9433 3394
   role: Principal at Media On Mars
+  website: https://www.mediaonmars.com.au
 - first_name: Ross
   last_name: Gerring
   contact:
     email: ross@itomic.com.au
     mobile: +61 408 831 588
   role: Founder/Director at Itomic Web Design & App Development
+  website: https://www.itomic.com.au
 word_cloud_bump: 
   - PostGIS
   - PostGIS
+  - Docker
+  - Docker
+  - Docker
+  - Kubernetes
+  - Kubernetes
+  - Kubernetes
+  - eBPF
+  - eBPF
+  - eBPF
 career:
 - company: Itomic Web Design & App Development
   role: 
@@ -63,7 +75,7 @@ career:
   start: 2018-02-01
   end: 
   description: |-
-    I worked with Freo Guitar Tuition to augment their customer invoice tracking system which was utilising airtable. Send out emails to clients when invoices are due.
+    I worked with Freo Guitar Tuition to augment their customer invoice tracking system which utilises airtable. Send out emails to clients when invoices are due.
     I am currently working on a booking system for Fremantle Guitar, which integrates with their unique needs (parents, children, term based subscriptions). 
     This also involves Google drive intergration for video uploads.
   tags:

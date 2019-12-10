@@ -9,6 +9,8 @@ CONFIG = YAML.load(IO.read '_config.yml')
 task :all do
   Rake::Task["build"].invoke
   Rake::Task["resume2pdf"].invoke
+  Rake::Task["publish"].invoke
+
 end
 
 task :build do
@@ -22,7 +24,7 @@ task :resume2pdf do
   end
 end
 
-task :publish => [:all] do
+task :publish  do
   output_dir = Pathname.new(CONFIG['destination'] || '_site')
   git = Git.open(output_dir)
   

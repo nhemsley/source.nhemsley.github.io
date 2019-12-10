@@ -2,17 +2,19 @@
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from "rollup-plugin-commonjs";
 import { terser } from "rollup-plugin-terser";
+import multiInput from 'rollup-plugin-multi-input';
 
 
 export default {
-  input: 'javascript/main.js',
+  input: 'javascript/*.js',
   output: {
-    file: 'javascript/bundle.js',
-    format: 'iife'
+    dir: 'javascript/build',
+    format: 'esm'
   },
   plugins: [ 
     resolve()
     , commonjs() 
-    , terser()
+    // , terser()
+    , multiInput()
   ]
 };
