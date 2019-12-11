@@ -15,35 +15,34 @@ referees:
   last_name: Bowden
   contact:
     email: ben@freoguitar.com
-    mobile: +61 422 645 211
+    mobile: +61 (08) 6270 6380
   role: Managing Director at Freo Guitar Tuition
   website: https://www.freoguitar.com
 - first_name: Kammi
   last_name: Rapsey
   contact:
     email: kam@mediaonmars.com.au
-    mobile: (08) 9433 3394
+    mobile: +61 (08) 9433 3394
   role: Principal at Media On Mars
   website: https://www.mediaonmars.com.au
 - first_name: Ross
   last_name: Gerring
   contact:
     email: ross@itomic.com.au
-    mobile: +61 408 831 588
+    mobile: +61 (03) 9380 7775
   role: Founder/Director at Itomic Web Design & App Development
   website: https://www.itomic.com.au
 word_cloud_bump: 
-  - PostGIS
-  - PostGIS
-  - Docker
-  - Docker
-  - Docker
-  - Kubernetes
-  - Kubernetes
-  - Kubernetes
-  - eBPF
-  - eBPF
-  - eBPF
+  - - PostGIS
+    - 2
+  - - Docker
+    - 3
+  - - Kubernetes
+    - 3
+  - - eBPF
+    - 3
+  - - Flutter
+    - 4
 career:
 - company: Itomic Web Design & App Development
   role: 

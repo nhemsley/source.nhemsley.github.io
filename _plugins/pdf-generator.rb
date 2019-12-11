@@ -4,10 +4,10 @@ require 'pry'
 
 Jekyll::Hooks.register :pages, :post_write do |page|
   # binding.pry
-  if page.relative_path == "resume/index.html"
+  if page.relative_path == "resume.html"
     jc = Jekyll.configuration
     output_dir = Pathname.new(jc['source']).join(jc['destination'])
-    output_file = output_dir.join('resume/index-pdf.html')
+    output_file = output_dir.join('resume-pdf.html')
     doc = Nokogiri::HTML(page.output)
     
     to_clone = doc.css('link').first{|script| script.attr('href').match?('-screen.css')}
