@@ -97,9 +97,26 @@ career:
   - Mysql
   - Google API
   - Google Drive
-- company: Media On Mars
+- company: Cryptocurrency Exchange Arbitrage
   role: 
   start: 2018-01-01
+  end: 2018-04-01
+  description: |- 
+    Analyze opportunities presented by exchange rate differences between online cryptocurrency exchanges. 
+    Finding round-trip percentage gains by buying and selling on various exchanges.
+    * Ruby On Rails
+    * Javascript charting front end
+    * Data Aggregatin from multiple exchanges (using coingecko/cryptoexchange gem)
+  tags:
+  - Ruby
+  - Ruby On Rails
+  - Postgres
+  - Bitcoin
+  - Ethereum
+  - Timeseries Data
+- company: Media On Mars
+  role: 
+  start: 2017-01-01
   end: 2018-06-01
   description: |- 
     Setting up and troubleshooting up Website Hosting
@@ -116,23 +133,6 @@ career:
   - PHP
   - Ruby
   - Wordpress
-- company: Cryptocurrency Exchange Arbitrage
-  role: 
-  start: 2018-01-01
-  end: 2018-06-01
-  description: |- 
-    Analyze opportunities presented by exchange rate differences between online cryptocurrency exchanges. 
-    Finding round-trip percentage gains by buying and selling on various exchanges.
-    * Ruby On Rails
-    * Javascript charting front end
-    * Data Aggregatin from multiple exchanges (using coingecko/cryptoexchange gem)
-  tags:
-  - Ruby
-  - Ruby On Rails
-  - Postgres
-  - Bitcoin
-  - Ethereum
-  - Timeseries Data
 - company: ABC Wall Removers
   role: 
   start: 2016-01-01
