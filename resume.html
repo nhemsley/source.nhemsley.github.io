@@ -49,10 +49,10 @@ title: Nicholas Hemsley Resume
   {% for referee in site.data.resume.referees %}
     <div class="referee">
       <h3 class="name">{{ referee.full_name }}</h3>
-      <div class="role">{{ referee.role }}</div>
+      <div class="role">{{ referee.role }} at <a href='{{ referee.website }}'>{{ referee.business }}</a></div>
       <div class="contact">
-        <div class="email">{{ referee.contact.email }}</div>
-        <div class="mobile">{{ referee.contact.mobile }}</div>
+        <div class="email"><a href='mailto:{{ referee.contact.email }}'>{{ referee.contact.email }}</a> </div>
+        <div class="mobile"><a href="tel:{{ referee.contact.mobile }}">{{ referee.contact.mobile }}</a></div>
       </div>
     </div>
     {% endfor %}

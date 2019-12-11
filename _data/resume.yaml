@@ -16,22 +16,25 @@ referees:
   contact:
     email: ben@freoguitar.com
     mobile: +61 (08) 6270 6380
-  role: Managing Director at Freo Guitar Tuition
+  role: Managing Director
   website: https://www.freoguitar.com
+  business: Freo Guitar Tuition
 - first_name: Kammi
   last_name: Rapsey
   contact:
     email: kam@mediaonmars.com.au
     mobile: +61 (08) 9433 3394
-  role: Principal at Media On Mars
+  role: Principal
   website: https://www.mediaonmars.com.au
+  business: Media On Mars
 - first_name: Ross
   last_name: Gerring
   contact:
     email: ross@itomic.com.au
     mobile: +61 (03) 9380 7775
-  role: Founder/Director at Itomic Web Design & App Development
+  role: Founder/Director
   website: https://www.itomic.com.au
+  business: Itomic Web Design & App Development
 word_cloud_bump: 
   - - PostGIS
     - 2
@@ -68,11 +71,12 @@ career:
   - cPanel
   - Elastic Search
   description: |-
-    * Maintaining a Vuejs & Laravel web app, with a Mysql database.
+    * Maintaining a Vuejs & Laravel web app, with a Mysql database. Elastic Search functionality.
     * Giving technical advice on Flutter Android & IOS App, and Laravel API backend. (API design, code quality, performance).
     * API Integration
       * Google Places
       * Google Accounts Reseller
+      * cPanel/WHM
 - company: Freo Guitar Tuition
   role: 
   start: 2018-02-01
