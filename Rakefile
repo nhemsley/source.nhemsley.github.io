@@ -6,13 +6,6 @@ require 'pry'
 
 CONFIG = YAML.load(IO.read '_config.yml')
 
-task :all do
-  Rake::Task["build"].invoke
-  Rake::Task["resume2pdf"].invoke
-  Rake::Task["publish"].invoke
-
-end
-
 task :build do
   puts "Rollup"
   `rollup -c`
@@ -37,4 +30,10 @@ task :publish  do
   git.add(all: true)
   git.commit('publish')
   git.push
+end
+
+task :build_and_publish do
+  Rake::Task["build"].invoke
+  Rake::Task["resume2pdf"].invoke
+  Rake::Task["publish"].invoke
 end
