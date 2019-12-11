@@ -43,6 +43,8 @@ word_cloud_bump:
     - 3
   - - Flutter
     - 4
+  - - Elastic Search
+    - 3
 career:
 - company: Itomic Web Design & App Development
   role: 
@@ -64,6 +66,7 @@ career:
   - PostGIS
   - Linux Administration
   - cPanel
+  - Elastic Search
   description: |-
     I am currently consulting for Itomic. My main roles are:
     * Maintaining a Vuejs & Laravel web app.

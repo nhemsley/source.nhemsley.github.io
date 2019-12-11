@@ -19,8 +19,8 @@ end
 
 task :resume2pdf do
   output_dir = Pathname.new(CONFIG['destination'] || '_site')
-  Dir.chdir(output_dir.join('resume')) do
-    `wkhtmltopdf --disable-javascript index-pdf.html resume.pdf`
+  Dir.chdir(output_dir) do
+    `wkhtmltopdf --disable-javascript resume-pdf.html resume.pdf`
   end
 end
 

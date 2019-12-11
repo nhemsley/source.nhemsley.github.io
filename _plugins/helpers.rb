@@ -42,10 +42,10 @@ module Jekyll
       counts = site.data['resume']['career'].flat_map{|job| job['tags'] || []}.each_with_object(Hash.new(0)) do |skillset,counts| 
         counts[skillset] += 1
       end
-      
 
       site.data['resume']['word_cloud_bump'].each do |skillset|
-        counts[skillset] += 1
+        (skill, count) = skillset
+        counts[skill] += count
       end
 
       counts.sort{|a, b| a.last <=> b.last}.reverse
