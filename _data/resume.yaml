@@ -68,18 +68,23 @@ career:
   - cPanel
   - Elastic Search
   description: |-
-    I am currently consulting for Itomic. My main roles are:
-    * Maintaining a Vuejs & Laravel web app.
-    * Giving technical advice on a Flutter IOs & Android App, and Laravel API backend. (API design, code quality, performance).
-    * Finding timely and cost-effective solutions to the various problems associated with running a web consultation firm.
+    * Maintaining a Vuejs & Laravel web app, with a Mysql database.
+    * Giving technical advice on Flutter Android & IOS App, and Laravel API backend. (API design, code quality, performance).
+    * API Integration
+      * Google Places
+      * Google Accounts Reseller
 - company: Freo Guitar Tuition
   role: 
   start: 2018-02-01
   end: 
   description: |-
-    I worked with Freo Guitar Tuition to augment their customer invoice tracking system which utilises airtable. Send out emails to clients when invoices are due.
-    I am currently working on a booking system for Fremantle Guitar, which integrates with their unique needs (parents, children, term based subscriptions). 
-    This also involves Google drive intergration for video uploads.
+    I augmented their customer invoice tracking system to send out emails to clients when invoices are due. 
+    * Encapsulate the business logic for communicating with customers regarding invoicing.
+    * Airtable integration with ruby application to send out invoices when due.
+    
+    I am currently working on a booking system for Fremantle Guitar, which integrates with their unique needs (guardians, dependants, term based subscriptions). 
+    * Heirarchical user system with dependancies between customers. Based on Devise.
+    * Google Drive Integration for uploading training videos (managing user access)
   tags:
   - Ruby
   - Ruby On Rails
@@ -88,14 +93,35 @@ career:
   - Mysql
   - Google API
   - Google Drive
+- company: Media On Mars
+  role: 
+  start: 2018-01-01
+  end: 2018-06-01
+  description: |- 
+    Setting up and troubleshooting up Website Hosting
+    * DNS
+    * Email
+    * Hosting providers
+
+    Websites
+    * Integrating photoshop designs into wordpress sites
+    * Front end javascript functionality
+    * Bespoke wordpress plugin development
+  tags:
+  - Javascript
+  - PHP
+  - Ruby
+  - Wordpress
 - company: Cryptocurrency Exchange Arbitrage
   role: 
   start: 2018-01-01
   end: 2018-06-01
   description: |- 
-    I worked with stakeholders to analyze opportunities presented by
-    exchange rate differences between online cryptocurrency exchanges. Finding round-trip
-    percentage gains by buying and selling on various exchanges.
+    Analyze opportunities presented by exchange rate differences between online cryptocurrency exchanges. 
+    Finding round-trip percentage gains by buying and selling on various exchanges.
+    * Ruby On Rails
+    * Javascript charting front end
+    * Data Aggregatin from multiple exchanges (using coingecko/cryptoexchange gem)
   tags:
   - Ruby
   - Ruby On Rails
@@ -124,10 +150,8 @@ career:
   role: 
   start: 2015-08-01
   end: 
-  description: I delivered a website for Integrated Natural Systems. This is a
-    static website hosted on amazon s3. The client wanted a clean, minimal look
-    for their website to complement with the images & gallery featuring photos of
-    nature.
+  description: Created a static website hosted on amazon s3. The client wanted a clean, minimal look
+    for their website to complement with the images & gallery featuring photos of nature.
   tags:
   - Ruby
   - HTML
@@ -165,7 +189,7 @@ career:
   role: 
   start: 2003-01-01
   end: 2005-06-01
-  description: I worked as a full stack web developer with Itomic. Mostly with their in-house
+  description: Full stack web developer with Itomic. Mostly with their in-house
     CMS. Many and varied roles as came up running a hosting serice.
     Generally I implemented bespoke solutions for clients using PHP & Mysql as the back end.
   tags:

@@ -116,7 +116,11 @@ table {
 }
 
 ul {
-	margin-top: 0.6em;
+	margin: 0.6em 0;
+}
+
+ul ul {
+	margin: 0;
 }
 ul li {
 	margin-left: 1.3em;

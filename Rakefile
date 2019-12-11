@@ -14,6 +14,9 @@ task :all do
 end
 
 task :build do
+  puts "Rollup"
+  `rollup -c`
+  puts "Jekyll build"
   `jekyll build`  
 end
 
