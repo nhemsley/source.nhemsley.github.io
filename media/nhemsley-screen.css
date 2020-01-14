@@ -48,11 +48,16 @@ table {
 	border-spacing: 0;
 }
 
-
 /* Layout */
 .career {
   display: flex; /* or inline-flex */
   flex-direction: column;
+}
+
+@media (min-width: 1200px) {
+.interests {
+	width: 1200px;
+}
 }
 
 .job {
@@ -130,7 +135,6 @@ ul li {
 /* Typography */
 body {
 	font: normal normal 400;
-	font-size: 80%;
 	line-height: 1.5em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Verdana,sans-serif;
@@ -153,6 +157,7 @@ h1 {
 h2 {
 	font-size: 2.5em;
 	/* color: #bc412b; */
+	margin: 0.8em 0 0.8em 0;
 }
 
 h3 {
@@ -210,7 +215,7 @@ strong {
 div.referees div.referee {
 	margin-top: 1em;
 	font: normal normal;
-	font-size: 90%;
+	font-size: 80%;
 	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	color: #555;
@@ -218,10 +223,14 @@ div.referees div.referee {
 
 div.job div.description {
 	font: normal normal;
-	font-size: 90%;
+	font-size: 80%;
 	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	color: #555;
 	
 
+}
+
+p {
+	margin: 1em 0em;
 }
