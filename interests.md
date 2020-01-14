@@ -8,9 +8,11 @@ title: Interests
 
 I am looking to broaden my experience in Ruby, Postgres, and Javascript front end development (Vue & Vuex, React & Redux et al.), and bring a sound working knowledge of container-based devops, working with Docker and AWS in the past, but also having an eye on Kubernetes and GCP. 
 
-If I am working within your organisation, I will strive to adhere to Test Driven Design fundamentals & workflows. The peace of mind that a thorough & incisive test harness brings to a team is indispensible to delivering an agile, feature complete & correct solution to stakeholders.
+If I am working within your organisation, I will adhere to Test Driven Design workflows. The peace of mind that a thorough & incisive test harness brings to a team is indispensible to delivering an agile, feature complete & correct solution to stakeholders.
 
 I have worked with various Google API's (Google places, Google drive, Permissions API), and am comfortable working with JSON based API's, aware of the challenges and tradeoffs this brings.
+
+I have a working knowledge of spatial functionality provided by PostGIS. If your application requires spatial functionality (distance finding, mapping, path finding), I have worked with PostGIS and Google to these ends.
 
 My natural environment is within a pry/byebug session, debugging the internals of a Rails application, or whichever gem currently seems to be misbehaving.
 
