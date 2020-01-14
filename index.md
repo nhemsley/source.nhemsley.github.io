@@ -1,13 +1,14 @@
 ---
 layout: layout
-title: Of Hobgoblins and Troublemakers
+title: Nicholas Hemsley
 ---
 # Nicholas Hemsley
 Computer Scientist, Data Scientist
 
 # Interests
 
-[Interests](./interests.html)
+[Interests]({% link interests.md %})
+
 # Resume
 
 [View my resume](./resume.html) [(or view in PDF)](./resume.pdf)
