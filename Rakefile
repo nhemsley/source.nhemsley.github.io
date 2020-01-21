@@ -5,6 +5,7 @@ require 'git'
 require 'pry'
 
 CONFIG = YAML.load(IO.read '_config.yml')
+RESUME = YAML.load(IO.read '_data/resume.yaml')
 
 task :build do
   puts "Rollup"
@@ -15,8 +16,9 @@ end
 
 task :resume2pdf do
   output_dir = Pathname.new(CONFIG['destination'] || '_site')
+  output_file = "resume-#{full_name_for_file}.pdf"
   Dir.chdir(output_dir) do
-    `wkhtmltopdf --disable-javascript resume-pdf.html resume.pdf`
+    `wkhtmltopdf --disable-javascript resume-pdf.html #{output_file}`
   end
 end
 
@@ -36,4 +38,9 @@ task :build_and_publish do
   Rake::Task["build"].invoke
   Rake::Task["resume2pdf"].invoke
   Rake::Task["publish"].invoke
+end
+
+def full_name_for_file
+  details = RESUME['details']
+  "#{details['first_name']}-#{details['last_name']}".downcase
 end

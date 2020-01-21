@@ -19,14 +19,14 @@ referees:
   role: Managing Director
   website: https://www.freoguitar.com
   business: Freo Guitar Tuition
-- first_name: Kammi
-  last_name: Rapsey
-  contact:
-    email: kam@mediaonmars.com.au
-    mobile: +61 (08) 9433 3394
-  role: Principal
-  website: https://www.mediaonmars.com.au
-  business: Media On Mars
+# - first_name: Kammi
+#   last_name: Rapsey
+#   contact:
+#     email: kam@mediaonmars.com.au
+#     mobile: +61 (08) 9433 3394
+#   role: Principal
+#   website: https://www.mediaonmars.com.au
+#   business: Media On Mars
 - first_name: Ross
   last_name: Gerring
   contact:
@@ -48,6 +48,12 @@ word_cloud_bump:
     - 4
   - - Elastic Search
     - 3
+  - - React
+    - 3
+  - - Redux
+    - 3
+  - - Vue
+    - 2
 career:
 - company: Itomic Web Design & App Development
   role: 
@@ -58,7 +64,7 @@ career:
   - Ruby
   - Google API
   - Laravel
-  - Vue JS
+  - Vue
   - Lando
   - Devops
   - Google Places
@@ -72,7 +78,6 @@ career:
   - Elastic Search
   description: |-
     * Maintaining a Vuejs & Laravel web app, with a Mysql database. Elastic Search functionality.
-    * Giving technical advice on Flutter Android & IOS App, and Laravel API backend. (API design, code quality, performance).
     * API Integration
       * Google Places
       * Google Accounts Reseller
@@ -132,7 +137,6 @@ career:
   - Javascript
   - PHP
   - Ruby
-  - Wordpress
 - company: ABC Wall Removers
   role: 
   start: 2016-01-01

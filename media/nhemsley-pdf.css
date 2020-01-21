@@ -1,3 +1,7 @@
   .pdf-break {
     page-break-before: always !important;
   }
+
+  .skillset-container {
+    display: none;
+  }

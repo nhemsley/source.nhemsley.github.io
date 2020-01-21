@@ -11,4 +11,4 @@ Computer Scientist, Data Scientist
 
 # Resume
 
-[View my resume](./resume.html) [(or view in PDF)](./resume.pdf)
+[View my resume](./resume.html) [(or view in PDF)](./resume-nicholas-hemsley.pdf)
