@@ -4,7 +4,8 @@ title: Interests
 ---
 
 <div class='interests' markdown='1'>
-## Interests
+
+## General Interests
 
 I am looking to broaden my experience in Ruby, Postgres, and Javascript front end development (Vue & Vuex, React & Redux et al.). I bring a sound working knowledge of container-based devops, working with Docker and Amazon AWS in the past, but also having an eye on Kubernetes and Google Cloud Platform. 
 
