@@ -1,7 +1,10 @@
-  .pdf-break {
-    page-break-before: always !important;
+  div.career {
+    float: none;
   }
-
+  div.job {
+    page-break-after: always;
+  }
+  
   .skillset-container {
     display: none;
   }

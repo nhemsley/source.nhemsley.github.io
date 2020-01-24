@@ -38,6 +38,12 @@ title: Nicholas Hemsley Resume
         </div>
         <div class='description'>
           {{ job.description | markdownify }}
+
+          <div class='job-skillset'>
+              <span class='job-skillset-title'>Skills:</span>
+              <span class='skills'>{{ job.tags | join: " | " }}</span>
+          </div>
+  
         </div>
       </div>
     {% endfor %}

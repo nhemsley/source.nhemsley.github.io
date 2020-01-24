@@ -116,6 +116,14 @@ table {
 	font-size: 90%;
 }
 
+.job-skillset-title {
+	font-weight: bold;
+}
+.job-skillset {
+	/* font-weight: bolder; */
+	margin-top: 1.5em;
+}
+
 .container {
   padding: 2em 2em 0 2em;
 }

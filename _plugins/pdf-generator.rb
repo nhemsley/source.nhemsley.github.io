@@ -16,8 +16,8 @@ Jekyll::Hooks.register :pages, :post_write do |page|
 
     to_clone.parent.add_child clone
 
-    page_break = doc.css('.job').to_a.select{ |job| job.css('h3').first.children.first.content.match? 'Phone Control Australia'}.first
-    page_break.add_previous_sibling('<div class="pdf-break"></div>')
+    # page_break = doc.css('.job').to_a.select{ |job| job.css('h3').first.children.first.content.match? 'Phone Control Australia'}.first
+    # page_break.add_previous_sibling('<div class="pdf-break"></div>')
 
     IO.write(output_file, doc.to_html)
   end

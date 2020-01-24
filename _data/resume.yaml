@@ -86,6 +86,7 @@ career:
   role: 
   start: 2018-02-01
   end: 
+  force_page_break: true
   description: |-
     I augmented their customer invoice tracking system to send out emails to clients when invoices are due. 
     * Encapsulate the business logic for communicating with customers regarding invoicing.
