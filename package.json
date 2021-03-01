@@ -4,7 +4,7 @@
     "d3-cloud": "^1.2.5",
     "rollup": "^1.27.9",
     "rollup-plugin-multi-input": "^1.0.3",
-    "three": "^0.110.0",
+    "three": "^0.125.0",
     "yarn": "^1.21.0"
   },
   "devDependencies": {
