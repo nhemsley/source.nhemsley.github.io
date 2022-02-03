@@ -1,20 +1,18 @@
-// rollup.config.js
-import resolve from 'rollup-plugin-node-resolve';
-import commonjs from "rollup-plugin-commonjs";
-import { terser } from "rollup-plugin-terser";
-import multiInput from 'rollup-plugin-multi-input';
-
+import resolve from '@rollup/plugin-node-resolve'
+import babel from '@rollup/plugin-babel'
+import commonjs from '@rollup/plugin-commonjs';
 
 export default {
-  input: 'javascript/*.js',
+  input: 'javascript/main.js',
   output: {
-    dir: 'javascript/build',
-    format: 'esm'
+    file: 'assets/javascript/main.js',
+    format: 'umd'
   },
-  plugins: [ 
-    resolve()
-    , commonjs() 
-    // , terser()
-    , multiInput()
+  plugins: [
+    // commonjs(),
+    resolve(),
+    babel({
+      exclude: 'node_modules/**' // only transpile our source code
+    })
   ]
 };
