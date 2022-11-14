@@ -19,14 +19,14 @@ referees:
   role: Managing Director
   website: https://www.freoguitar.com
   business: Freo Guitar Tuition
-# - first_name: Kammi
-#   last_name: Rapsey
-#   contact:
-#     email: kam@mediaonmars.com.au
-#     mobile: +61 (08) 9433 3394
-#   role: Principal
-#   website: https://www.mediaonmars.com.au
-#   business: Media On Mars
+- first_name: Kammi
+  last_name: Rapsey
+  contact:
+    email: kam@mediaonmars.com.au
+    mobile: +61 (08) 9433 3394
+  role: Principal
+  website: https://www.mediaonmars.com.au
+  business: Media On Mars
 - first_name: Ross
   last_name: Gerring
   contact:
@@ -54,7 +54,22 @@ word_cloud_bump:
     - 3
   - - Vue
     - 2
+  - - Rust
+    - 6
 career:
+- company: Fluid Notion Systems
+  role: 
+  start: 2020-03-01
+  end: 2021-12-01
+  tags:
+  - Rust
+  - Bevy
+  - AWS
+  - Terraform
+  - 3d Programming
+  - Big Data
+  description: |-
+    * I worked on a Fluid simulation of breaking waves, and visualization software for the results of these simulations. Please see the [project page](http://nhemsley.github.io/projects/salvatore.html) for details
 - company: Itomic Web Design & App Development
   role: 
   start: 2019-08-01

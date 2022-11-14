@@ -12,3 +12,7 @@ Computer Scientist, Data Scientist
 # Resume
 
 [View my resume](./resume.html) [(or view in PDF)](./resume-nicholas-hemsley.pdf)
+
+# Projects
+
+[Fluid Simulation of Breaking waves](./projects/salvatore.html), with contoured reef structures. This was my first foray into the Rust programming language.

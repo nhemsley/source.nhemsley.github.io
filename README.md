@@ -29,7 +29,6 @@ Using wkhtmltopdf
 #to install 
 sudo apt install wkhtmltopdf
 
-cd nhemsley.github.io
-wkhtmltopdf --enable-local-file-access resume-pdf.html resume-nicholas-hemsley.pdf
+(cd nhemsley.github.io && wkhtmltopdf --enable-local-file-access resume-pdf.html resume-nicholas-hemsley.pdf)
 
 ```

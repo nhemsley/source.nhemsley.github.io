@@ -7,7 +7,7 @@ title: Interests
 
 ## General Interests
 
-I am looking to broaden my experience in Ruby, Postgres, and Javascript front end development (Vue & Vuex, React & Redux et al.). I bring a sound working knowledge of container-based devops, working with Docker and Amazon AWS in the past, but also having an eye on Kubernetes and Google Cloud Platform. 
+I am looking to broaden my experience in Rust, Ruby, Postgres, and Javascript front end development (Vue & Vuex, React & Redux et al.). I bring a sound working knowledge of container-based devops, working with Docker and Amazon AWS in the past, but also having an eye on Kubernetes and Google Cloud Platform. 
 
 I prefer to adhere to a Test Driven Design workflow. The peace of mind that a thorough & incisive test harness brings to a team is indispensible to delivering an agile, feature complete & correct solution to stakeholders.
 
@@ -25,6 +25,7 @@ I am also interested in Flutter, which looks to be a promising technology for ta
 
 I generally keep an eye on where current trends are going, and which technologies are relevant and applicable to industry needs.
 
+* Rust, Fluid Simulation. Game Development.
 * Flutter apps. Google's mobile stack appears to attack the problem of multiple platforms, from the right levels. The language, and a runtime that does away with differing widget heirarchies. Only a company with the resources comparable to google could attempt, and pull this off.
 * eBPF, the virtual machine within the Linux Kernel. This is an interesting development, enabling observability superpowers within Linux.
 * Docker, manage deployment environments within your repository. Very nice tool, but it appears to be ceding to:
